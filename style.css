@@ -9,7 +9,7 @@ body{
 .text-primary{
     color: #FD6E0A;
 }
-.btn-primary{
+.btn-primary {
     border-radius: 5px;
     background: #FD6E0A;
     border: 0;
@@ -168,4 +168,46 @@ main{
     font-size: 17px;
     font-weight: 400;
     color: #757575;
+}
+/* resume section style  */
+.resume-colum-title{
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 30px;
+    color: #474747;
+}
+.resume-container{
+    display: flex;
+    gap: 70px;
+    padding-top: 140px;
+}
+.resume-item-title{
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+}
+.resume-item-institute{
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 7px;
+    padding-bottom: 17px;
+    color: #757575;
+}
+.resume-item-description{
+    width: 511px;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+.download-btn{
+    text-align: center;
+    padding-top: 50px;
+}
+/* footer style */
+footer{
+    display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
+    margin-top: 100px;
+    padding: 130px 230px;
 }
